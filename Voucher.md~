@@ -58,9 +58,7 @@
 	global     	TRUE
 	subsystem  	"Component View"
 	quidu      	"548E86C00244"
-	logical_models 	(list unit_reference_list
-	    (object Class "b"
-		quid       	"548E8B46037D"))
+	logical_models 	(list unit_reference_list)
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Main"
 		quid       	"548E86C00250"
@@ -93,36 +91,7 @@
 			line_color 	3342489
 			fill_color 	13434879
 			width      	300
-			height     	132)
-		    (object ClassView "Class" "Logical View::b" @2
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(869, 272)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@2
-			    location   	(788, 221)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	162
-			    justify    	0
-			    label      	"b")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"548E8B46037D"
-			height     	126
-			annotation 	8
-			autoResize 	TRUE)))))
+			height     	132)))))
     root_subsystem 	(object SubSystem "Component View"
 	quid       	"548E86C00244"
 	physical_models 	(list unit_reference_list)
